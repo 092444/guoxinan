@@ -1,0 +1,310 @@
+#index .section8 {
+    width: 100%;
+    height: 100vh !important;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#index .section8 .left {
+    float: left;
+    width: 16.66%;
+    height: 100%;
+    background-image: url("../Images/index8/8.1.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+
+/*--------左侧标题 --------*/
+#index .section8 .left .title {
+    width:50px;
+    /* height: 100%; */
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    margin-left: -1.0714rem;
+    writing-mode: vertical-lr;
+    /* background-color: aqua; */
+}
+
+#index .section8 .left .title::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+#index .section8 .left .title .titleText {
+    position: relative;
+    width: 1em;
+    font-size: 2.1429rem;
+    line-height: 1;
+    padding: 45px 2px;
+    display: inline-block;
+    color:#fff;
+}
+
+
+#index .section8 .left .title .titleText:before,
+#index .section8 .left .title .titleText:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 2.4286rem;
+    height: 1.7143rem;
+    background: url("../Images/index8/png3.png") no-repeat;
+}
+
+#index .section8 .left .title .titleText:before {
+    top: 0;
+    background-position: left;
+}
+
+#index .section8 .left .title .titleText:after {
+    bottom: 0;
+    background-position: right;
+}
+
+#index .section8 .left .title .emptyBox{
+    display: inline-block;
+    height: 6.4286rem;
+    border-left: 1px dotted;
+    margin: 1.0714rem 0;
+    color: #fff;
+}
+
+
+/*------查看更多-------*/
+#index .section8 .left  .title .lookmore {
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 1.2857rem;
+}
+
+#index .section8 .left .title .lookmore .more {
+    line-height: 1.2857rem;
+    /* line-height: 20px; */
+}
+
+
+#index .section8 .left .title .lookmore .more::before {
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../Images/index3/horn24_w.png") no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: -4px;
+    left: 4px;
+}
+
+#index .section8 .left .title .lookmore .more::after {
+
+    display: inline-block;
+    content: "";
+    background: url("../Images/index3/horn24_w.png") no-repeat;
+    background-position: -24px 0;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 0px;
+    right: 4px;
+    bottom: -4px;
+}
+
+#index .section8 .left .title .lookmore .more:hover,
+#index .section8 .left .title .lookmore .more:hover::before,
+#index .section8 .left .title .lookmore .more:hover::after {
+    color: #9A2929;
+}
+
+#index .section8 .left .title .lookmore .more:hover::before {
+    background-position: 0 -24px;
+}
+
+#index .section8 .left .title .lookmore .more:hover::after {
+    background-position: -24px -24px;
+}
+
+
+/*-------- 右面 ----------*/
+/*-------- 手风琴 --------*/
+#index .section8 .right {
+    float: left;
+    width: 83.34%;
+    height: 100%;
+}
+
+
+
+#index .section8 .right .king {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#index .section8 .right .king ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    overflow: hidden;
+}
+
+
+
+#index .section8 .right .king ul li {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 20%;
+    position: relative;
+    overflow: hidden;
+}
+/* #index .section8 .right .king ul a {
+    display: block;
+    width: 100%;
+    height: 100%;
+} */
+
+/* #index .section8 .right .king li>a>div{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+} */
+
+#index .section8 .right .king li>div {
+    height: 100%;
+    width: 100%;
+    background-position: left;
+    /* transition: all 0.25s; */
+    overflow: hidden;
+}
+#index .section8 .right .king li>div:hover {
+    transition: all 0.8s;
+    color: #9A2929;
+}
+
+/*--------右侧标题--------*/
+#index .section8 .right .king li .title {
+    width: 50px;
+    position: absolute;
+    left: 20%;
+    top: 26%;
+    writing-mode: vertical-lr;
+    /* background-color: aqua; */
+}
+
+#index .section8 .right .king li .title::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+#index .section8 .right .king li .title .titleText {
+    position: relative;
+    width: 1em;
+    font-size: 2.1429rem;
+    line-height: 1;
+    display: inline-block;
+    color: #fff;
+}
+
+
+#index .section8 .right .king .li4  .title .titleText:before,
+#index .section8 .right .king .li4  .title .titleText:after,
+#index .section8 .right .king .li5  .title .titleText:before,
+#index .section8 .right .king .li5  .title .titleText:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 2.4286rem;
+    height: 1.7143rem;
+    background: url("../Images/index8/png3.png") no-repeat;
+}
+
+
+#index .section8 .right .king .li4 .title .titleText:before, 
+#index .section8 .right .king .li5 .title .titleText:before{
+    top: -35px;
+    background-position: left; 
+}
+
+#index .section8 .right .king .li4 .title .titleText::after, 
+#index .section8 .right .king .li5 .title .titleText:after {
+    bottom: -35px;
+    background-position: right;
+}
+
+#index .section8 .right .king li .title .emptyBox {
+    display: inline-block;
+    height: 6.4286rem;
+    border-left: 1px dotted;
+    margin: 1.0714rem 0;
+    color: #fff;
+    /* background-color: #bfa; */
+}
+
+
+
+
+/*------查看更多-------*/
+#index .section8 .right .king .title .lookmore {
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 1.2857rem;
+}
+
+#index .section8 .right .king .title .lookmore .more {
+    line-height: 1.2857rem;
+    /* line-height: 20px; */
+}
+
+
+#index .section8 .right .king .title .lookmore .more::before {
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../Images/index3/horn24_w.png") no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: -4px;
+    left: 4px;
+}
+
+#index .section8 .right .king .title .lookmore .more::after {
+
+    display: inline-block;
+    content: "";
+    background: url("../Images/index3/horn24_w.png") no-repeat;
+    background-position: -24px 0;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 0px;
+    right: 4px;
+    bottom: -4px;
+}
+
+#index .section8 .right .king .title .lookmore .more:hover,
+#index .section8 .right .king .title .lookmore .more:hover::before,
+#index .section8 .right .king .title .lookmore .more:hover::after {
+    color: #9A2929;
+}
+
+#index .section8 .right .king .title .lookmore .more:hover::before {
+    background-position: 0 -24px;
+}
+
+#index .section8 .right .king .title .lookmore .more:hover::after {
+    background-position: -24px -24px;
+}

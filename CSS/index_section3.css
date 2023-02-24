@@ -1,0 +1,1156 @@
+#index .section3 {
+    background: url("../Images/index3/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#index .section3 {
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+}
+
+#index .section3 .barsList {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#index .section3 .bar {
+    float: left;
+    height: 100%;
+    width: 4.76%;
+    overflow: hidden;
+    position: relative;
+    /* position: absolute; */
+}
+
+
+#index .section3 .bar1 {
+    height: 100%;
+    width: 4.8%;
+
+}
+
+#index .section3 .barsList .bar .bTop,
+#index .section3 .barsList .bar .bBottom {
+    position: absolute;
+}
+
+#index .section3 .barsList .bar .bTop {
+    top: 0;
+}
+
+#index .section3 .barsList .bar .bBottom {
+    bottom: 0;
+}
+
+
+
+
+/*-------- 第一条 --------*/
+#index .section3 .bar1 .b1 {
+    width: 100%;
+    background-image: url("../Images/index2/c1.png");
+    bottom: 44%;
+    animation: section3BarsSlideDown1 2s;
+
+}
+
+@keyframes section3BarsSlideDown1 {
+    0% {
+        /* transform: translateY(-100px); */
+        bottom: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        bottom: 40%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 44%;
+    }
+}
+
+#index .section3 .bar1 .b22 {
+
+    width: 100%;
+    background-image: url("../Images/index2/c22.png");
+    top: 73%;
+    animation: section3BarsSlideUp1 2s;
+
+}
+
+@keyframes section3BarsSlideUp1 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 73%;
+    }
+}
+
+/*-------- 第二条 --------*/
+#index .section3 .bar2 .b2 {
+    width: 100%;
+    background-image: url("../Images/index2/c2.png");
+    bottom: 75%;
+    animation: section3BarsSlideDown2 2s;
+}
+
+
+
+#index .section3 .bar2 .b23 {
+    width: 100%;
+    background-image: url("../Images/index2/c23.png");
+    top: 82.5%;
+    animation: section3BarsSlideUp2 2s;
+
+
+}
+
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+
+/*-------- 第三条 --------*/
+#index .section3 .bar3 .b3 {
+    width: 100%;
+    background-image: url("../Images/index2/c3.png");
+    bottom: 90%;
+    animation: section3BarsSlideDown3 2s;
+}
+
+
+#index .section3 .bar3 .b24 {
+    width: 100%;
+    top: 92%;
+    background-image: url("../Images/index2/c24.png");
+    animation: section3BarsSlideUp3 2s;
+
+}
+@keyframes section3BarsSlideDown3 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 85%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 90%;
+    }
+}
+
+@keyframes section3BarsSlideUp3 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 85%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 92%;
+    }
+}
+
+/*-------- 第四条 --------*/
+#index .section3 .bar4 .b4 {
+    width: 100%;
+    background-image: url("../Images/index2/c4.png");
+    bottom: 86%;
+    animation: section3BarsSlideDown4 2s;
+}
+
+
+#index .section3 .bar4 .b25 {
+    width: 100%;
+    top: 89%;
+    background-image: url("../Images/index2/c25.png");
+    animation: section3BarsSlideUp4 2s;
+
+}
+@keyframes section3BarsSlideDown4 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 81%;
+    }
+
+    100% {
+        bottom: 86%;
+    }
+}
+
+@keyframes section3BarsSlideUp4 {
+    0% {
+        top: 100%;
+
+    }
+
+
+    70% {
+        top: 85%;
+    }
+
+    100% {
+        top: 89%;
+    }
+}
+
+/*-------- 第五条 --------*/
+#index .section3 .bar5 .b5 {
+    width: 100%;
+    background-image: url("../Images/index2/c5.png");
+    bottom: 78%;
+}
+
+
+#index .section3 .bar5 .b26 {
+    width: 100%;
+    top: 91%;
+    background-image: url("../Images/index2/c26.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+
+/*-------- 第六条 --------*/
+#index .section3 .bar6 .b6 {
+    width: 100%;
+    background-image: url("../Images/index2/c6.png");
+    bottom: 89%;
+}
+
+
+#index .section3 .bar6 .b27 {
+    width: 100%;
+    background-image: url("../Images/index2/c27.png");
+    top: 78%;
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+
+/*-------- 第七条 --------*/
+#index .section3 .bar7 .b7 {
+    width: 100%;
+    bottom: 92%;
+    background-image: url("../Images/index2/c7.png");
+}
+
+
+#index .section3 .bar7 .b28 {
+    width: 100%;
+    top: 89%;
+    background-image: url("../Images/index2/c28.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+
+/*-------- 第八条 --------*/
+#index .section3 .bar8 .b8 {
+    width: 100%;
+    bottom: 92%;
+    background-image: url("../Images/index2/c8.png");
+}
+
+
+#index .section3 .bar8 .b29 {
+    width: 100%;
+    top: 95%;
+    background-image: url("../Images/index2/c29.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+
+/*-------- 第九条 --------*/
+#index .section3 .bar9 .b9 {
+    width: 100%;
+    bottom: 95%;
+    background-image: url("../Images/index2/c9.png");
+}
+
+
+#index .section3 .bar9 .b30 {
+    width: 100%;
+    top: 91%;
+    background-image: url("../Images/index2/c30.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+
+/*-------- 第十条 --------*/
+#index .section3 .bar10 .b10 {
+    width: 100%;
+    bottom: 94%;
+    background-image: url("../Images/index2/c10.png");
+}
+
+
+#index .section3 .bar10 .b31 {
+    width: 100%;
+    top: 93.75%;
+    background-image: url("../Images/index2/c31.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十一条 --------*/
+#index .section3 .bar11 .b11 {
+    width: 100%;
+    bottom: 95%;
+    background-image: url("../Images/index2/c11.png");
+}
+
+
+#index .section3 .bar11 .b32 {
+    width: 100%;
+    top: 96.35%;
+    background-image: url("../Images/index2/c32.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十二条 --------*/
+#index .section3 .bar12 .b12 {
+    width: 100%;
+    bottom: 94%;
+    background-image: url("../Images/index2/c12.png");
+}
+
+
+#index .section3 .bar12 .b33 {
+    width: 100%;
+    top: 96.35%;
+    background-image: url("../Images/index2/c33.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十三条 --------*/
+#index .section3 .bar13 .b13 {
+    width: 100%;
+    bottom: 96%;
+    background-image: url("../Images/index2/c13.png");
+}
+
+
+#index .section3 .bar13 .b34 {
+    width: 100%;
+    top: 93.55%;
+    background-image: url("../Images/index2/c34.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十四条 --------*/
+#index .section3 .bar14 .b14 {
+    width: 100%;
+    bottom: 96%;
+    background-image: url("../Images/index2/c14.png");
+}
+
+
+#index .section3 .bar14 .b35 {
+    width: 100%;
+    top: 91%;
+    background-image: url("../Images/index2/c35.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十五条 --------*/
+#index .section3 .bar15 .b15 {
+    width: 100%;
+    bottom: 94%;
+    background-image: url("../Images/index2/c15.png");
+}
+
+
+#index .section3 .bar15 .b36 {
+    width: 100%;
+    top: 93.55%;
+    background-image: url("../Images/index2/c36.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十六条 --------*/
+#index .section3 .bar16 .b16 {
+    width: 100%;
+    bottom: 90%;
+    background-image: url("../Images/index2/c16.png");
+}
+
+
+#index .section3 .bar16 .b37 {
+    width: 100%;
+    top: 96.35%;
+    background-image: url("../Images/index2/c37.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十七条 --------*/
+#index .section3 .bar17 .b17 {
+    width: 100%;
+    bottom: 87%;
+    background-image: url("../Images/index2/c17.png");
+}
+
+
+#index .section3 .bar17 .b38 {
+    width: 100%;
+    top: 93.55%;
+    background-image: url("../Images/index2/c38.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十八条 --------*/
+#index .section3 .bar18 .b18 {
+    width: 100%;
+    bottom: 91%;
+    background-image: url("../Images/index2/c18.png");
+}
+
+
+#index .section3 .bar18 .b39 {
+    width: 100%;
+    top: 87.5%;
+    background-image: url("../Images/index2/c39.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第十九条 --------*/
+#index .section3 .bar19 .b19 {
+    width: 100%;
+    bottom: 82%;
+    background-image: url("../Images/index2/c19.png");
+}
+
+
+#index .section3 .bar19 .b40 {
+    width: 100%;
+    top: 82.5%;
+    background-image: url("../Images/index2/c40.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第二十条 --------*/
+#index .section3 .bar20 .b20 {
+    width: 100%;
+    bottom: 72%;
+    background-image: url("../Images/index2/c20.png");
+}
+
+
+#index .section3 .bar20 .b41 {
+    width: 100%;
+    top: 73.125%;
+    background-image: url("../Images/index2/c41.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+/*-------- 第二十一条 --------*/
+#index .section3 .bar21 .b21 {
+    width: 100%;
+    bottom: 57%;
+    background-image: url("../Images/index2/c21.png");
+}
+
+
+#index .section3 .bar21 .b42 {
+    width: 100%;
+    top: 58.55%;
+    background-image: url("../Images/index2/c42.png");
+
+}
+@keyframes section3BarsSlideDown2 {
+    0% {
+        bottom: 100%;
+
+    }
+
+    70% {
+        bottom: 70%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        bottom: 75%;
+    }
+}
+
+@keyframes section3BarsSlideUp2 {
+    0% {
+        /* transform: translateY(-100px); */
+        top: 100%;
+
+    }
+
+
+    70% {
+        /* transform: translateY(100px); */
+        top: 79%;
+    }
+
+    100% {
+        /* transform: translateY(0); */
+        top: 82.5%;
+    }
+}
+
+/*--------- 中间内容区 ----------*/
+#index .section3 .center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 16%;
+}
+
+#index .section3 .center .center_contents {
+    margin: 0 auto;
+    width: 41.4286rem;
+    text-align: center;
+    font: bolder;
+    color: #FFFFFF;
+    font-size: 2.1426rem;
+    /* line-height: 2.1426rem; */
+}
+
+#index .section3 .center .center_contents .line1 {
+    line-height: 2.8571rem;
+}
+
+#index .section3 .center .center_contents .line2 {
+    font-size: 1.7143rem;
+}
+
+#index .section3 .center .center_contents .line3 {
+    font-family: "微软雅黑";
+    font-size: 1.2857rem;
+    padding-top: 2.7143rem;
+}
+
+#index .section3 .center .center_contents .line3 .more {
+
+    line-height: 1.2857rem;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+#index .section3 .center .center_contents .line3 .more::before {
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../Images/index3/horn24_w.png") no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+}
+
+#index .section3 .center .center_contents .line3 .more::after {
+
+    display: inline-block;
+    content: "";
+    background: url("../Images/index3/horn24_w.png") no-repeat;
+    background-position: -24px 0;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 4px;
+}
+
+#index .section3 .center .center_contents .line3 .more:hover,
+#index .section3 .center .center_contents .line3 .more:hover::before,
+#index .section3 .center .center_contents .line3 .more:hover::after {
+    color: #9A2929;
+}
+
+#index .section3 .center .center_contents .line3 .more:hover::before {
+    background-position: 0 -24px;
+}
+
+#index .section3 .center .center_contents .line3 .more:hover::after {
+    background-position: -24px -24px;
+}

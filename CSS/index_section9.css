@@ -1,0 +1,91 @@
+#index .section9 {
+    background: url("../Images/index9/9.png");
+}
+
+#index .section9 .footer {
+    color: #333;
+    line-height: 1.8;
+    font-family: "微软雅黑";
+}
+
+/* -----------上端----------- */
+#index .section9 .footer .top {
+    padding: 7.2857rem 0 6.2857rem;
+}
+
+#index .section9 .footer .top .wrap1 {
+    width: 87.8571rem;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+#index .section9 .footer .top .wrap1 .left .h {
+    font-size: 1.5714rem;
+    margin-bottom: 2.2857rem;
+    line-height: 1.2;
+
+}
+
+#index .section9 .footer .top .wrap1 .left .ul {
+    height: 7.1429rem;
+}
+
+#index .section9 .footer .top .wrap1 .left .ul .scrollbox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: none;
+    direction: 1tr;
+
+}
+
+#index .section9 .footer .top .wrap1 .left .ul .scrollbox .container {
+    margin-right: 3.1429rem;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    border-right: 1px solid #333;
+
+}
+
+#index .section9 .footer .top .wrap1 .left .ul .scrollbox .container>ul li {
+    display: block;
+    margin-bottom: 0.3571rem;
+
+
+}
+
+#index .section9 .footer .top .wrap1 .left .ul .scrollbox .container>ul li a {
+    color: #333;
+}
+
+#index .section9 .footer .top .wrap1 .left .ul .scrollbox>.scrollbar {
+    position: absolute;
+    width: 5px;
+    height: auto;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+#index .section9 .footer .top .wrap1 .right{
+    overflow: hidden;
+}
+
+
+/* -----------中部----------- */
+#index .section9 .footer .center {
+    padding-top: 3.9286rem;
+    border-top: 1px solid #d8d8d8;
+    text-align: center;
+}
+
+/* -----------底部----------- */
+#index .section9 .footer .bottom {
+    padding: 7.2857rem 0 6.2857rem;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}

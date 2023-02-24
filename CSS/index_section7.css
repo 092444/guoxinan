@@ -1,0 +1,224 @@
+#index .section7 {
+    background: url("../Images/index7/7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#index .section7 {
+    width: 100%;
+    height: 100vh !important;
+    overflow: hidden;
+    position: relative;
+}
+
+#index .section7 .img {
+    position: absolute;
+    overflow: hidden;
+}
+
+#index .section7 .img1 {
+    top: 0;
+    right: 50%;
+    margin-right: -6.7857rem;
+    width: 70.7143rem;
+    height: 33.7143rem;
+    /* display: none; */
+}
+
+#index .section7 .img2 {
+    bottom: 0;
+    left: 50%;
+    margin-left: -18.5714rem;
+    width: 87.2857rem;
+    height: 38.5714rem;
+    /* display: none; */
+}
+
+/*--------右上文字区域----------*/
+#index .section7 .cnt1 {
+    position: absolute;
+    width: 37.8571rem;
+    margin-left: 15%;
+    left: 50%;
+    top: 15%;
+    text-align: right;
+
+
+    /* height: 300px; */
+    /* background-color: #bfa; */
+
+}
+
+#index .section7 .cnt1 .head1 {
+    margin-bottom: 1.7587rem;
+    line-height: 3.1429rem;
+    font-size: 2.1429rem;
+    color: #fff;
+}
+
+#index .section7 .cnt1 .head1::before,
+#index .section7 .cnt1 .head1::after {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 44px;
+    vertical-align: top;
+}
+
+
+#index .section7 .cnt1 .head1::before {
+
+    background: url("../Images/index7/png8.png") no-repeat;
+    background-position: left;
+    margin-right: 18px;
+
+}
+
+#index .section7 .cnt1 .head1::after {
+    background: url("../Images/index7/png8.png") no-repeat;
+    background-position: right;
+    margin-left: 18px;
+
+}
+
+#index .section7 .cnt1 .article1 {
+    margin-bottom: 30px;
+    font-family: "微软雅黑";
+    text-align: justify;
+    color: #fff;
+}
+
+/*----- 查看更多 ------*/
+#index .section7 .content .more {
+    position: relative;
+    font-family: "微软雅黑";
+    display: inline-block;
+    font-size: 1.1429rem;
+    padding: 0 2.7143rem;
+}
+
+#index .section7 .content .more .m {
+    line-height: 1.1429rem;
+}
+
+#index .section7 .content .more .m::before {
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../Images/index3/horn24_w.png") no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#index .section7 .content .more .m::after {
+    content: "";
+    background: url("../Images/index3/horn24_w.png") no-repeat;
+    background-position: -24px 0;
+    width: 24px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+#index .section7 .content .more .m:hover,
+#index .section7 .content .more .m:hover::before,
+#index .section7 .content .more .m:hover::after {
+    color: #9A2929;
+}
+
+#index .section7 .content .more .m:hover::before {
+    background-position: 0 -24px;
+}
+
+#index .section7 .content .more .m:hover::after {
+    background-position: -24px -24px;
+}
+
+
+/*--------左下文字区域----------*/
+#index .section7 .cnt2 {
+    position: absolute;
+    width: 37.8571rem;
+    margin-right: 15%;
+    right: 50%;
+    bottom: 12%;
+
+
+    /* background-color: #bfa; */
+
+}
+
+#index .section7 .cnt2 .head2 {
+    margin-bottom: 1.7587rem;
+    line-height: 3.1429rem;
+    font-size: 2.1429rem;
+    color: #fff;
+}
+
+#index .section7 .cnt2 .head2::before,
+#index .section7 .cnt2 .head2::after {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 44px;
+    vertical-align: top;
+}
+
+
+#index .section7 .cnt2 .head2::before {
+
+    background: url("../Images/index7/png8.png") no-repeat;
+    background-position: left;
+    margin-right: 18px;
+
+}
+
+#index .section7 .cnt2 .head2::after {
+    background: url("../Images/index7/png8.png") no-repeat;
+    background-position: right;
+    margin-left: 18px;
+
+}
+
+#index .section7 .cnt2 .article2 {
+    margin-bottom: 30px;
+    font-family: "微软雅黑";
+    text-align: justify;
+    color: #fff;
+}
+
+
+
+
+
+@keyframes section7_ImgSildeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes section7_ImgSildeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
